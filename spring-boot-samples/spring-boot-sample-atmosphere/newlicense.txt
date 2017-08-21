@@ -1,7 +1,0 @@
- this is new license file and 
-checking out branches by creating branches and checkout
-;wq!
-
-
-1:wq!
-
