@@ -7,8 +7,7 @@ pipeline {
         checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '38bcc0a7-70b9-4fc5-952c-06597c8b66d0', url: 'https://github.com/akmaharshi/jenkins2-course-spring-boot.git/']]])
     }
 	
-	jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/Jenkinsfile
-    
+	    
     stage('Build') {
         //withMaven(jdk: 'java', maven: 'maven') {
         //maven 'maven'
