@@ -14,8 +14,9 @@ pipeline {
         //withMaven(jdk: 'java', maven: 'maven') {
         //maven 'maven'
         //jdk 'java'
+	    env.PATH = "${tool 'maven'}/bin:${env.PATH}"
 	    steps{
-        env.PATH = "${tool 'maven'}/bin:${env.PATH}"
+        
         sh 'mvn package -Dmaven.test.skip=true -f spring-boot-samples/spring-boot-sample-atmosphere/pom.xml'
       }
     }
