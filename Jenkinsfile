@@ -2,7 +2,7 @@ pipeline {
     agent { node { label 'master' } }
 	
 	environment {
-		env.PATH = "${tool 'maven'}/bin:${env.PATH}"
+		PATH = "${tool 'maven'}/bin:${PATH}"
 	}
     
  stages {
