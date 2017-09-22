@@ -1,5 +1,9 @@
 pipeline {
     agent { node { label 'master' } }
+	
+	environment {
+		env.PATH = "${tool 'maven'}/bin:${env.PATH}"
+	}
     
  stages {
     stage('Checkout') {
@@ -14,7 +18,7 @@ pipeline {
         //withMaven(jdk: 'java', maven: 'maven') {
         //maven 'maven'
         //jdk 'java'
-	    env.PATH = "${tool 'maven'}/bin:${env.PATH}"
+	    
 	    steps{
         
         sh 'mvn package -Dmaven.test.skip=true -f spring-boot-samples/spring-boot-sample-atmosphere/pom.xml'
