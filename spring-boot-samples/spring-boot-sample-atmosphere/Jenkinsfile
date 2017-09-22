@@ -3,8 +3,11 @@ pipeline {
     
  stages {
     stage('Checkout') {
-        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'aecbcb10-5ce2-412c-aef2-7e296a052fbf', url: 'https://github.com/akmaharshi/jenkins2-course-spring-boot.git/']]])
+		cleanWs()
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '38bcc0a7-70b9-4fc5-952c-06597c8b66d0', url: 'https://github.com/akmaharshi/jenkins2-course-spring-boot.git/']]])
     }
+	
+	jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/Jenkinsfile
     
     stage('Build') {
         //withMaven(jdk: 'java', maven: 'maven') {
@@ -27,7 +30,8 @@ pipeline {
         //sh 'mvn clean deploy -Dmaven.test.skip=true'
         
         // sh 'mvn clean deploy -Dmaven.test.skip=true -f spring-boot-samples/spring-boot-sample-atmosphere/pom.xml'
-        nexusArtifactUploader artifacts: [[artifactId: 'spring-boot-sample-atmosphere', classifier: 'debug', file: 'spring-boot-samples/spring-boot-sample-atmosphere/target/spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar', type: 'jar']], credentialsId: '6a9dbfd7-20c4-487d-b2bc-611ba2f7d77f', groupId: 'grooup.id', nexusUrl: '13.126.209.230:8080/nexus', nexusVersion: 'nexus2', protocol: 'http', repository: 'releases', version: '1.4.0'   
+        nexusArtifactUploader artifacts: [[artifactId: 'spring-boot-sample-atmosphere', classifier: '', file: 'spring-boot-samples/spring-boot-sample-atmosphere/target/spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar', type: 'jar']], credentialsId: 'cf5bbd82-2468-46d3-a99e-13df16ada832', groupId: 'grooup.id', nexusUrl: '13.126.209.230:8081/nexus', nexusVersion: 'nexus2', protocol: 'http', repository: 'releases', version: '1.4.0'
+        
     }
  }
 }
