@@ -4,15 +4,16 @@ agent { node { label 'master' } }
     
 	stages {
     stage('Checkout') {
-        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'aecbcb10-5ce2-412c-aef2-7e296a052fbf', url: 'https://github.com/akmaharshi/jenkins2-course-spring-boot.git/']]])
+		cleanWs()
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '38bcc0a7-70b9-4fc5-952c-06597c8b66d0', url: 'https://github.com/akmaharshi/jenkins2-course-spring-boot.git/']]])
     }
-    
+		
     stage('Build') {
         //withMaven(jdk: 'java', maven: 'maven') {
         //maven 'maven'
         //jdk 'java'
         env.PATH = "${tool 'maven'}/bin:${env.PATH}"
-        sh 'mvn install -f spring-boot-samples/spring-boot-sample-atmosphere/pom.xml'
+        sh 'mvn package -Dmaven.test.skip=true -f spring-boot-samples/spring-boot-sample-atmosphere/pom.xml'
       //}
     }
     
@@ -25,21 +26,11 @@ agent { node { label 'master' } }
     }
     
     stage('nexus upload') {
+        //sh 'mvn clean deploy -Dmaven.test.skip=true'
+        
         // sh 'mvn clean deploy -Dmaven.test.skip=true -f spring-boot-samples/spring-boot-sample-atmosphere/pom.xml'
-        nexusArtifactUploader {
-        nexusVersion('nexus2')
-        protocol('http')
-        nexusUrl('13.126.209.230:8081/nexus')
-        groupId('sp.sd')
-        version('1.4.0')
-        repository('NexusArtifactUploader')
-        credentialsId('442d2cff-ac4d-4143-9f2d-5e89f974f77a')
-        artifact {
-            artifactId('spring-boot-sample-atmosphere')
-            type('jar')
-            classifier('debug')
-            file('spring-boot-samples/spring-boot-sample-atmosphere/target/spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar')
-        }
+        nexusArtifactUploader artifacts: [[artifactId: 'spring-boot-sample-atmosphere', classifier: '', file: 'spring-boot-samples/spring-boot-sample-atmosphere/target/spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar', type: 'jar']], credentialsId: 'cf5bbd82-2468-46d3-a99e-13df16ada832', groupId: 'grooup.id', nexusUrl: '13.126.209.230:8081/nexus', nexusVersion: 'nexus2', protocol: 'http', repository: 'releases', version: '1.4.0'
+        
     }
 	}
     
