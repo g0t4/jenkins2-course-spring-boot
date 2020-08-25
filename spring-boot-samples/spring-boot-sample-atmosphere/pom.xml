@@ -4,7 +4,7 @@
 	<parent>
 		<!-- Your own application should inherit from spring-boot-starter-parent -->
 		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-samples</artifactId>
+		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.0.RELEASE</version>
 	</parent>
 	<artifactId>spring-boot-sample-atmosphere</artifactId>
