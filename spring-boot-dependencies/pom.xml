@@ -191,74 +191,130 @@
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot</artifactId>
 				<type>test-jar</type>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-test</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-test-autoconfigure</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-test</artifactId>
 				<type>test-jar</type>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-actuator</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-actuator-docs</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-autoconfigure</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-configuration-metadata</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-configuration-processor</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-devtools</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-loader</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-loader-tools</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 				<exclusions>
 					<exclusion>
 						<groupId>commons-logging</groupId>
@@ -269,217 +325,389 @@
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-activemq</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-actuator</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-amqp</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-aop</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-artemis</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-batch</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-cache</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-cloud-connectors</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-cassandra</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-couchbase</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-gemfire</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-jpa</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-mongodb</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-redis</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-redis</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-neo4j</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-rest</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-solr</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-freemarker</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-groovy-templates</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-hateoas</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-hornetq</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-integration</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-jdbc</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-jersey</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-jetty</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-jooq</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-jta-atomikos</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-jta-bitronix</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-undertow</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-log4j2</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-logging</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-mail</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-mobile</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-mustache</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-jta-narayana</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-remote-shell</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-security</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-social-facebook</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-social-linkedin</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-social-twitter</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-test</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 				<exclusions>
 					<exclusion>
 						<groupId>commons-logging</groupId>
@@ -490,42 +718,74 @@
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-thymeleaf</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-tomcat</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-validation</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-velocity</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-web</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-websocket</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-web-services</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-ws</artifactId>
+<<<<<<< HEAD
 				<version>1.4.0.RELEASE</version>
+=======
+				<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 			</dependency>
 
 			<!-- Third Party -->
@@ -2401,7 +2661,11 @@
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
+<<<<<<< HEAD
 					<version>1.4.0.RELEASE</version>
+=======
+					<version>1.4.0.BUILD-RELEASE</version>
+>>>>>>> a6e2d0eb8e9ccc1f255fbc50b4e8fc46895e2e33
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
